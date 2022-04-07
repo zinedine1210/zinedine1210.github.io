@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+/* Utility */
+
+.poppins {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+}
+
+.poppins2 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+}
+
+.bg-main {
+    background-color: #F42D46 !important;
+}
+
+.bg-main2 {
+    background-color: #F6F6F6 !important;
+}
+
+.text-main {
+    color: #F42D46 !important;
+}
+
+.button {
+    padding: 16px !important;
+}
+
+span {
+    color: #F42D46;
+}
+
+#informasi {
+    margin: 60px 0 !important;
+}
+
+.jarak {
+    margin: 220px 0 !important;
+}
+
+#informasi .row .col-md-6 h1,
+#berita .row .col-md-6 h1 {
+    font-size: 64px;
+}
+
+.kartu {
+    width: 500px;
+    margin: 0 0 0 100px !important;
+}
+
+#fitur h1 {
+    font-size: 64px;
+    text-align: center;
+}
+
+#navigasi div {
+    margin-top: 50px;
+    margin-bottom: 110px;
+}
+
+#email div {
+    background-color: #F42D46 !important;
+    padding: 100px 80px !important;
+}
+
+#email div h3 {
+    font-size: 40px !important;
+}
+
+h6 {
+    font-size: 20px !important;
+}
+
+footer {
+    margin-top: 300px;
+    background-color: black;
+    padding: 100px 0;
+    font-size: 32px;
+}
+
+
+/* Hover effect */
+
+.container-image {
+    position: relative !important;
+}
+
+.overlay {
+    opacity: 0 !important;
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    bottom: 0 !important;
+    transition: opacity 0.4s ease-in-out !important;
+    background: black !important;
+    cursor: pointer !important;
+}
+
+.content {
+    position: absolute !important;
+    top: 80% !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%);
+}
+
+.container-image:hover .overlay {
+    opacity: 0.8 !important;
+}
